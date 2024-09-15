@@ -48,8 +48,8 @@ prompt = ["""
 """]
 
 # Streamlit app configuration
-st.set_page_config(page_title="Data Retrieval from SQL Database Using gemini-pro")
-st.header("Data Retrieval from SQL Database Using gemini-pro")
+st.set_page_config(page_title="RetrieveGPT")
+st.header("Retrieve_GPT")
 
 question = st.text_input("Input your question:", key='input')
 submit = st.button("Submit")
